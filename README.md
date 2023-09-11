@@ -45,6 +45,12 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 - Then, it initialises the output matrix with 0, and performs the edge linking.
 - Each pixel set to ‘2’ is marked as an edge pixel; for each pixel that is ‘1’, its 8-neighbourhood is checked, and if any neighbour is edge, then the pixel itself is also masked as edge.
 <!-- -->
+**Examples:**<br />
+<!-- -->
+![commands2](https://github.com/tudormihail5/MATLABfunctions/blob/main/CannyCommands.png)
+<!-- -->
+![edges2](https://github.com/tudormihail5/MATLABfunctions/blob/main/CannyEdges.png)
+<!-- -->
 - edges returns ‘matches’, a binary image that indicates which pixels match in the two images, found using the logical ‘AND’ between them, ‘nonMatches’, the logical ‘AND’ between the edge map and the complement of the ground, and ‘types’, a matrix that indicates the type of match between each pixel.
 - ‘types’ can take four possible values: 1 (true positives, pixel in the edge map is also in the ground truth), 2 (false negative, pixel in ground is not detected as an edge), 3 (false positive, pixel in edge map that is not an edge in ground), and 4 (true negative, pixel is not an edge in either of the images).
 <!-- -->
