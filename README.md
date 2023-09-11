@@ -25,6 +25,10 @@ This is the second and last part of ROC, which computes the amount of TPs, FNs, 
 - LoG creates two matrices using the ‘meshgrid’ function, making sure they are centred at (0,0) using the expression ‘-(kernel-1)/2:(kernel-1)/2’.
 - Then, it creates the mask using its formula, and making use of the X, Y, and sigma.
 <!-- -->
+**Examples:**<br />
+![commands1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGCommands.png)
+![edges1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGEdges.png)
+<!-- -->
 - gaussian creates the Gaussian mask using the formula and the meshgrid, then calculates the derivatives with respect to X and Y.
 <!-- -->
 - nonMaxSuppression takes two arguments, the magnitude and the direction.
