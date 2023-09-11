@@ -28,7 +28,7 @@ This is the second and last part of ROC, which computes the amount of TPs, FNs, 
 - LoG creates two matrices using the ‘meshgrid’ function, making sure they are centred at (0,0) using the expression ‘-(kernel-1)/2:(kernel-1)/2’.
 - Then, it creates the mask using its formula, and making use of the X, Y, and sigma.
 <!-- -->
-**Examples:**<br />
+**Example:**<br />
 <!-- -->
 ![commands1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGCommands.png)
 <!-- -->
@@ -50,7 +50,7 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 - Then, it initialises the output matrix with 0, and performs the edge linking.
 - Each pixel set to ‘2’ is marked as an edge pixel; for each pixel that is ‘1’, its 8-neighbourhood is checked, and if any neighbour is edge, then the pixel itself is also masked as edge.
 <!-- -->
-**Examples:**<br />
+**Example:**<br />
 <!-- -->
 ![commands2](https://github.com/tudormihail5/MATLABfunctions/blob/main/CannyCommands.png)
 <!-- -->
@@ -62,7 +62,7 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 - ROC uses ‘types’ created by the previous function, and computes the amount of true positives (TP), false negatives (FN), false positives (FP), and true negatives (TN).
 - It then calculates the true positive rate (TPR = TP / (TP + FN)), and the false positive rate (FPR = FP / (FP + TN)) using the formulas.
 <!-- -->
-**Examples:**<br />
+**Example:**<br />
 <!-- -->
 ![commands3](https://github.com/tudormihail5/MATLABfunctions/blob/main/ROCCommands.png)
 
