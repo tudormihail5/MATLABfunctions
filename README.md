@@ -46,3 +46,5 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 - It then calculates the true positive rate (TPR = TP / (TP + FN)), and the false positive rate (FPR = FP / (FP + TN)) using the formulas.
 
 ### Challenges I ran into:
+
+Canny was definitely the most difficult one, and it took a while and some research to understand all the steps and their purpose in creating a better edge detection.
