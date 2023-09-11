@@ -5,8 +5,11 @@
 **LoG:**<br />
 It creates a mask to implement the Laplacian of Gaussian filter.<br />
 
+**magnitude:**<br />
+It computes the magnitude of a 2D vector given its x and y components.<br />
+
 **gaussian:**<br />
-It generates a the horizontal and vertical first order Gaussian masks for edge detection or smoothing, being the first part of Canny edge detection.<br />
+It generates a the horizontal and vertical first order Gaussian masks for edge detection, being the first part of Canny edge detection.<br />
 
 **nonMaxSuppression:**<br />
 This function is the second part of Canny edge detection, suppressing the image to thin edges.<br />
@@ -30,6 +33,8 @@ This is the second and last part of ROC, which computes the amount of TPs, FNs, 
 ![commands1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGCommands.png)
 <!-- -->
 ![edges1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGEdges.png)
+<!-- -->
+- magnitude just computes the magnitude using the formula.
 <!-- -->
 - gaussian creates the Gaussian mask using the formula and the meshgrid, then calculates the derivatives with respect to X and Y.
 <!-- -->
