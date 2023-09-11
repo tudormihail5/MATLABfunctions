@@ -61,6 +61,10 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 <!-- -->
 - ROC uses ‘types’ created by the previous function, and computes the amount of true positives (TP), false negatives (FN), false positives (FP), and true negatives (TN).
 - It then calculates the true positive rate (TPR = TP / (TP + FN)), and the false positive rate (FPR = FP / (FP + TN)) using the formulas.
+<!-- -->
+**Examples:**<br />
+<!-- -->
+![commands3](https://github.com/tudormihail5/MATLABfunctions/blob/main/ROCCommands.png)
 
 ### Challenges I ran into:
 
