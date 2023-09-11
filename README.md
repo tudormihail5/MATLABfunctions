@@ -68,4 +68,4 @@ greater than or equal to both its neighbours, it is considered a local maximum a
 
 ### Challenges I ran into:
 
-Canny was definitely the most difficult one, and it took a while and some research to understand all the steps and their purpose in creating a better edge detection.
+Canny was definitely the most difficult one, and it took a while and some research to understand all the steps and their purpose in creating a better edge detection. Moreover, I almost mixed up the TPs, FNs, FPs, and TNs, as they are 4 totally different attributes with similar names.
