@@ -26,6 +26,7 @@ This is the second and last part of ROC, which computes the amount of TPs, FNs, 
 - Then, it creates the mask using its formula, and making use of the X, Y, and sigma.
 <!-- -->
 **Examples:**<br />
+<!-- -->
 ![commands1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGCommands.png)
 <!-- -->
 ![edges1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGEdges.png)
