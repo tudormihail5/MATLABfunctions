@@ -27,6 +27,7 @@ This is the second and last part of ROC, which computes the amount of TPs, FNs, 
 <!-- -->
 **Examples:**<br />
 ![commands1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGCommands.png)
+<!-- -->
 ![edges1](https://github.com/tudormihail5/MATLABfunctions/blob/main/LoGEdges.png)
 <!-- -->
 - gaussian creates the Gaussian mask using the formula and the meshgrid, then calculates the derivatives with respect to X and Y.
